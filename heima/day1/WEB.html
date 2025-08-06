@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- 1. 声明当前文件是一个超文本文档 -->
+<html lang="en">
+<!-- 2. 表示当前文件支持英文，也可以是中文 -->
+<head>
+    <!-- 3. 当前页面使用的编码表 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB开发</title>
+    <style>
+        /* 4. 添加一些基本的样式 */
+        body {
+            font-family: Arial, sans-serif; /* 设置字体 */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f4f4f4; /* 设置背景颜色 */
+            min-height: 100vh;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px; /* 添加圆角效果 */
+            margin-bottom: 20px;
+        }
+        audio, video {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="../img/10851a843ce651dfd492f1ddfeddf5e.jpg" alt="图片描述">
+        <audio src="../mp3/歌曲.mp3" controls></audio>
+        <video src="../mp4/1.mp4" controls></video>
+    </div>
+</body>
+</html>
